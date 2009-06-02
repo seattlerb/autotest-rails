@@ -1,26 +1,27 @@
-= autotest_rails
+= autotest-rails
 
-* FIX (url)
+* http://rubyforge.org/projects/zentest
 
 == DESCRIPTION:
 
-FIX (describe your package)
+This is an autotest plugin to provide rails support. It provides basic
+rails support and extra plugins for migrations and fixtures.
 
 == FEATURES/PROBLEMS:
 
-* FIX (list of features or problems)
+* same old plugin you know and love. Just in its own package now.
 
 == SYNOPSIS:
 
-  FIX (code sample of usage)
+  There is no synopsis. This just works.
 
 == REQUIREMENTS:
 
-* FIX (list of requirements)
+* ZenTest for autotest
 
 == INSTALL:
 
-* FIX (sudo gem install, anything else)
+* sudo gem install autotest-rails
 
 == LICENSE:
 
