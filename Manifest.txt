@@ -1,0 +1,9 @@
+.autotest
+History.txt
+Manifest.txt
+README.txt
+Rakefile
+lib/autotest/discover.rb
+lib/autotest/fixtures.rb
+lib/autotest/migrate.rb
+lib/autotest/rails.rb
