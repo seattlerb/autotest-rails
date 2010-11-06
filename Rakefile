@@ -1,14 +1,12 @@
 # -*- ruby -*-
 
 require 'rubygems'
-require 'hoe'
-
-Hoe.spec 'autotest-rails' do
-  developer('Ryan Davis', 'ryand-ruby@zenspider.com')
-
-  self.rubyforge_name = 'zentest'
-
-  extra_deps << 'ZenTest'
-end
+require 'rake/testtask'
 
 # vim: syntax=ruby
+
+Rake::TestTask.new(:test) do |test|
+  test.libs << 'test'
+  test.test_files = FileList['test/*.rb']
+  test.verbose = true
+end
