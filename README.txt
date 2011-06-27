@@ -1,6 +1,7 @@
 = autotest-rails
 
-* http://rubyforge.org/projects/zentest
+home :: https://github.com/seattlerb/autotest-rails
+rdoc :: http://zentest.rubyforge.org/autotest-rails
 
 == DESCRIPTION:
 
@@ -27,7 +28,7 @@ rails support and extra plugins for migrations and fixtures.
 
 (The MIT License)
 
-Copyright (c) 2009 Ryan Davis, seattle.rb
+Copyright (c) Ryan Davis, seattle.rb
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
