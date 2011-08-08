@@ -8,7 +8,7 @@ Hoe.spec 'autotest-rails' do
 
   self.rubyforge_name = 'zentest'
 
-  extra_deps << 'ZenTest'
+  dependency "ZenTest", "4.5"
 end
 
 # vim: syntax=ruby
