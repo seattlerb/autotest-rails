@@ -74,7 +74,7 @@ class Autotest::Rails < Autotest
   # Convert the pathname s to the name of class.
   def path_to_classname(s)
     sep = File::SEPARATOR
-    f = s.sub(/^test#{sep}((unit|functional|integration|views|controllers|helpers)#{sep})?/, '').sub(/\.rb$/, '').split(sep)
+    f = s.sub(/^test#{sep}((\w+)#{sep})?/, '').sub(/\.rb$/, '').split(sep)
     f = f.map { |path| path.split(/_/).map { |seg| seg.capitalize }.join }
     f = f.map { |path| path =~ /Test$/ ? path : "#{path}Test"  }
     f.join('::')
