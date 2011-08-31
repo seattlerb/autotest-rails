@@ -1,3 +1,9 @@
+=== 4.1.1 / 2011-08-31
+
+* 1 minor enhancement:
+
+  * #path_to_classname can test non-standard rails directories (apotonick)
+
 === 4.1.0 / 2009-06-03
 
 * 1 major enhancement
