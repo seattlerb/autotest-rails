@@ -8,9 +8,9 @@ Hoe.plugin :seattlerb
 Hoe.spec 'autotest-rails' do
   developer 'Ryan Davis', 'ryand-ruby@zenspider.com'
 
-  self.rubyforge_name = 'zentest'
-
   dependency "ZenTest", "~> 4.5"
+
+  license "MIT"
 end
 
 # vim: syntax=ruby
