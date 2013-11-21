@@ -1,3 +1,9 @@
+=== 4.2.0 / 2013-11-21
+
+* 1 major enhancement:
+
+  * Updated rules for rails 4. (blowmage)
+
 === 4.1.2 / 2012-02-13
 
 * 1 bug fix:

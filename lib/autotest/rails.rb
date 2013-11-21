@@ -1,7 +1,7 @@
 require 'autotest'
 
 class Autotest::Rails < Autotest
-  VERSION = '4.1.2'
+  VERSION = '4.2.0'
 
   def initialize # :nodoc:
     super
