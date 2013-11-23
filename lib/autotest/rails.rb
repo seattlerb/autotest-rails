@@ -51,12 +51,8 @@ class Autotest::Rails < Autotest
       "test/views/layouts_view_test.rb"
     end
 
-    add_mapping %r%^config/routes.rb$% do # FIX:
-      files_matching %r%^test/(integration|controllers|views|functional)/.*_test\.rb$%
-    end
-
-    add_mapping %r%^test/test_helper.rb|config/((boot|environment(s/test)?).rb|database.yml)% do
-      files_matching %r%^test/(models|controllers|views|unit|functional)/#{m[1]}.*_test.rb$%
+    add_mapping %r%^test/test_helper.rb|config/((boot|environment(s/test)?).rb|database.yml|routes.rb)% do
+      files_matching %r%^test/(models|controllers|views|unit|functional)/.*_test.rb$%
     end
   end
 
